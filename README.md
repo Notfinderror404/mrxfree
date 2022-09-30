@@ -1,4 +1,4 @@
-# MR X RANDOM FREE
+ MR X RANDOM FREE
 
 pkg update
 
@@ -18,10 +18,10 @@ pip install rich
 
 rm -rf BDMC
 
-git clone https://github.com/MAHADI-143/BDMC.git
+git clone https://github.com/Notfinderror404/mrxfree.git
 
-cd BDMC
+cd mrxfree
 
-python3 M-CRACK.py
+python mrxfree.py
 
 
